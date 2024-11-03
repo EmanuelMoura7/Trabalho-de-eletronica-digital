@@ -1,0 +1,14 @@
+
+public class Atividade
+{
+	public static void main(String[] args) {
+		decimalParaBinario(1000);
+	}
+	
+	private static void decimalParaBinario(int n) {
+	    if (n > 0){
+	        decimalParaBinario(n/2);
+	        System.out.print(n % 2);
+	    }
+	}
+}
