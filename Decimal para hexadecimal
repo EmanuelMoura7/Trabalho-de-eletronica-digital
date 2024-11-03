@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int numero;
+		System.out.println("Digite o numero que deseja converter:");
+		numero = leia.nextInt();
+		String numeroHexa = Integer.toHexString(numero);
+		System.out.println("O numero em Hexadecimal é:" + numeroHexa.toUpperCase());
+	}
+}
